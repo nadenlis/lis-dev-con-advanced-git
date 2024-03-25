@@ -33,7 +33,7 @@ public class Program
       year--;
 
     int weekDay = Convert.ToInt32((
-      (day + Math.Floor(2.6 * ((month + 9) % 12 + 1 - 1) - 0.2) + year % 100 
+      (day + Math.Floor(2.6 * ((month + 9) % 12 + 1) - 0.2) + year % 100 
       + Math.Floor(((double)year % 100 / 4)) + Math.Floor((double)year / 400) - 2
       * Math.Floor((double)year / 100) - 1) % 7 + 7) % 7 + 1);
 
