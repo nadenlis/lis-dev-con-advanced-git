@@ -27,7 +27,7 @@ public class Program
       Console.WriteLine("WRONG FORMAT");
   }
 
-  private static DayOfWeek CalculateDayOfWeek(int year, int month, int day)
+  public static DayOfWeek CalculateDayOfWeek(int year, int month, int day)
   {
     if (month < 3)
       year--;
